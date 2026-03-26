@@ -1,0 +1,68 @@
+import type { Category } from "@/types/product";
+
+export const categories: Category[] = [
+  {
+    id: "smartphones",
+    name: "Smartphones",
+    icon: "📱",
+    count: 48,
+    gradient: "from-violet-600/20 to-purple-600/10",
+    glow: "hover:shadow-violet-500/25 hover:border-violet-500/30",
+  },
+  {
+    id: "laptops",
+    name: "Laptops",
+    icon: "💻",
+    count: 32,
+    gradient: "from-cyan-600/20 to-blue-600/10",
+    glow: "hover:shadow-cyan-500/25 hover:border-cyan-500/30",
+  },
+  {
+    id: "audio",
+    name: "Audio",
+    icon: "🎧",
+    count: 27,
+    gradient: "from-indigo-600/20 to-blue-600/10",
+    glow: "hover:shadow-indigo-500/25 hover:border-indigo-500/30",
+  },
+  {
+    id: "gaming",
+    name: "Gaming",
+    icon: "🎮",
+    count: 41,
+    gradient: "from-emerald-600/20 to-teal-600/10",
+    glow: "hover:shadow-emerald-500/25 hover:border-emerald-500/30",
+  },
+  {
+    id: "smartwatch",
+    name: "Wearables",
+    icon: "⌚",
+    count: 19,
+    gradient: "from-rose-600/20 to-pink-600/10",
+    glow: "hover:shadow-rose-500/25 hover:border-rose-500/30",
+  },
+  {
+    id: "tablets",
+    name: "Tablets",
+    icon: "📟",
+    count: 14,
+    gradient: "from-amber-600/20 to-orange-600/10",
+    glow: "hover:shadow-amber-500/25 hover:border-amber-500/30",
+  },
+  {
+    id: "camaras",
+    name: "Cámaras",
+    icon: "📷",
+    count: 23,
+    gradient: "from-sky-600/20 to-blue-600/10",
+    glow: "hover:shadow-sky-500/25 hover:border-sky-500/30",
+  },
+  {
+    id: "accesorios",
+    name: "Accesorios",
+    icon: "🔌",
+    count: 95,
+    gradient: "from-fuchsia-600/20 to-purple-600/10",
+    glow: "hover:shadow-fuchsia-500/25 hover:border-fuchsia-500/30",
+  },
+];
